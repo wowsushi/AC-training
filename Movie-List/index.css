@@ -1,0 +1,22 @@
+.body-grid {
+  display: grid;
+  grid-template-columns: 75% 10% 5% 10%;
+  align-items: center;
+  grid-gap: 5px;
+}
+
+#search-bar {
+  justify-content: space-between;
+}
+
+#display-mode{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#display-mode > li {
+  margin: 0 10px;
+  list-style-type: none;
+  cursor: pointer;
+}

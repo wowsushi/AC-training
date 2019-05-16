@@ -1,0 +1,29 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="color-panel">
+      <h1>RGB to Hex Converter</h1>
+      <div class="color-bar">
+        <label id="color-r">R</label>
+        <input type="range" value="255" min="0" max="255" name="r" />
+        <div data-color-value="r">255</div>
+      </div>
+
+      <div class="color-bar">
+        <label id="color-g">G</label>
+        <input type="range" value="255" min="0" max="255" name="g" />
+        <div data-color-value="g">255</div>
+      </div>
+
+      <div class="color-bar">
+        <label id="color-b">B</label>
+        <input type="range" value="255" min="0" max="255" name="b" />
+        <div data-color-value="b">255</div>
+      </div>
+
+      <div id="hex">#FFFFFF</div>
+    </section>
+    <script src="main.js"></script>
+  </body>
